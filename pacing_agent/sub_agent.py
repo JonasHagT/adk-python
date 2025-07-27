@@ -6,6 +6,14 @@ agent on a heavier model while using a lighter/faster model for these
 helpers.
 """
 
+# -----------------------------------------------------------------------------
+# System prompt placeholder ----------------------------------------------------
+# -----------------------------------------------------------------------------
+# Once you flesh out a *real* sub-agent, put its long-form instruction here so
+# product / marketing folks can edit the wording without diving into the code.
+# -----------------------------------------------------------------------------
+SUB_AGENT_SYSTEM_PROMPT = ""  # TODO: Write system prompt for sub-agent here
+
 # Example stub – remove or extend when implementing a real sub-agent.
 # from google.adk.agents import LlmAgent
 # from . import env

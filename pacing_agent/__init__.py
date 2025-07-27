@@ -1,3 +1,12 @@
-"""Package for Babyland daily pacing agent."""
+"""Top-level package for the Babyland pacing agent.
 
-__all__ = []
+Import conveniences so that other scripts can do:
+
+    from pacing_agent import run_agent
+
+without worrying about internal file layout.
+"""
+
+from .main import main as run_agent  # Re-export for convenience
+
+__all__ = ["run_agent"]
